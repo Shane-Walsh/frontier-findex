@@ -175,7 +175,7 @@ class Dashboard extends React.Component {
             <SimpleLineChart />
           </Typography>
           <Typography variant="h4" gutterBottom component="h2">
-            Products
+            Most Active Stock Companies
           </Typography>
           <div className={classes.tableContainer}>
             <SimpleTable />

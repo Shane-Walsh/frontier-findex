@@ -1,0 +1,72 @@
+{
+  "AMD": {
+    "Ticker": "AMD",
+    "Price": "27.065",
+    "Changes": -0.135,
+    "ChangesPerc": "-0.0049879918714205804",
+    "companyName": "Advanced Micro Devices Inc."
+  },
+  "CHK": {
+    "Ticker": "CHK",
+    "Price": "2.805",
+    "Changes": -0.035,
+    "ChangesPerc": "-0.012477718360071192",
+    "companyName": "Chesapeake Energy Corporation"
+  },
+  "BAC": {
+    "Ticker": "BAC",
+    "Price": "30.025",
+    "Changes": -0.135,
+    "ChangesPerc": "-0.004496253122398054",
+    "companyName": "Bank of America Corporation"
+  },
+  "GE": {
+    "Ticker": "GE",
+    "Price": "10.3",
+    "Changes": -0.01,
+    "ChangesPerc": "-0.0009708737864077462",
+    "companyName": "General Electric Company"
+  },
+  "NOK": {
+    "Ticker": "NOK",
+    "Price": "5.03",
+    "Changes": -0.04,
+    "ChangesPerc": "-0.00795228628230617",
+    "companyName": "Nokia Corporation Sponsored American Depositary Shares"
+  },
+  "AIG": {
+    "Ticker": "AIG",
+    "Price": "50.5",
+    "Changes": 0,
+    "ChangesPerc": "0",
+    "companyName": "American International Group Inc."
+  },
+  "O": {
+    "Ticker": "O",
+    "Price": "67.54",
+    "Changes": -0.46,
+    "ChangesPerc": "-0.006810778797749388",
+    "companyName": "Realty Income Corporation"
+  },
+  "CPRX": {
+    "Ticker": "CPRX",
+    "Price": "3.76",
+    "Changes": 0.01,
+    "ChangesPerc": "0.00265957446808505",
+    "companyName": "Catalyst Pharmaceuticals Inc."
+  },
+  "MYL": {
+    "Ticker": "MYL",
+    "Price": "24.75",
+    "Changes": -1.95,
+    "ChangesPerc": "-0.07878787878787875",
+    "companyName": "Mylan N.V."
+  },
+  "AAPL": {
+    "Ticker": "AAPL",
+    "Price": "205.19",
+    "Changes": -0.67,
+    "ChangesPerc": "-0.0032652663385156",
+    "companyName": "Apple Inc."
+  }
+}
