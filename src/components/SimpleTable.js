@@ -19,17 +19,16 @@ const styles = {
 };
 
 let id = 0;
-function createData(name, calories, fat, carbs, protein) {
+function createData(name, ticker, price, changes, changesPerc) {
   id += 1;
-  return { id, name, calories, fat, carbs, protein };
+  return { id, name, ticker, price, changes, changesPerc };
 }
 
 const data = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
+  createData('Wins Finance Holdings Inc.', "Win", 21.105, 0.105, 0.004975),
+  createData('Cohu Inc.', "COHU", 19.21, 2.63, 0.136907),
+  createData('SolarEdge Technologies Inc.', "SEDG", 53.84, 3.38, 0.062778),
+  createData('Itron Inc.', "ITRI", 64.93, 8.13, 0.125211),
 ];
 
 function SimpleTable(props) {
@@ -40,11 +39,11 @@ function SimpleTable(props) {
       <Table className={classes.table}>
         <TableHead>
           <TableRow>
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat (g)</TableCell>
-            <TableCell align="right">Carbs (g)</TableCell>
-            <TableCell align="right">Protein (g)</TableCell>
+            <TableCell>Company Name</TableCell>
+            <TableCell align="right">Ticker</TableCell>
+            <TableCell align="right">Price</TableCell>
+            <TableCell align="right">Changes</TableCell>
+            <TableCell align="right">ChangesPerc</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -53,10 +52,10 @@ function SimpleTable(props) {
               <TableCell component="th" scope="row">
                 {n.name}
               </TableCell>
-              <TableCell align="right">{n.calories}</TableCell>
-              <TableCell align="right">{n.fat}</TableCell>
-              <TableCell align="right">{n.carbs}</TableCell>
-              <TableCell align="right">{n.protein}</TableCell>
+              <TableCell align="right">{n.ticker}</TableCell>
+              <TableCell align="right">{n.price}</TableCell>
+              <TableCell align="right">{n.changes}</TableCell>
+              <TableCell align="right">{n.changesPerc}</TableCell>
             </TableRow>
           ))}
         </TableBody>
