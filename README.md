@@ -1,10 +1,10 @@
 # Frontier Findex
 
-#### Overview:
+### Overview:
 
 ###### Displays financial indexes, news and charted data
 
-#### Technology:
+### Technology:
 
 ###### Developed using ReactJS and Firebase
 <br>
