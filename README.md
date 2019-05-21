@@ -2,7 +2,7 @@
 
 #### Overview:
 
-###### Displays financial indexes and data
+###### Displays financial indexes, news and charted data
 
 #### Technology:
 
