@@ -19,9 +19,9 @@
 
 * Firebase - `$npm install firebase --save`
 
-      -  `$npm install -g firebase-tools`
+- `$npm install -g firebase-tools`
 
-      -  `firebase login`
+-  `firebase login`
 
 ## Production
 ​
