@@ -33,5 +33,5 @@
 
 ## Deployment:
 
-        * localhost:3000
-        * https://frontier-findex.web.app
+* Locally - localhost:3000
+* Live - https://frontier-findex.web.app
