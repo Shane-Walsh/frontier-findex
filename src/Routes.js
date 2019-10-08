@@ -11,4 +11,5 @@ const Routes = () => (
   </Switch>
 )
 
-export default Routes;
+//export default Routes;
+ReactDOM.render(Routes, document.getElementById('root'))
