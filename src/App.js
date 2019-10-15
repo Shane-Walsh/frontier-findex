@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-//import HeadLines from './components/Headlines';
-import DashBoard from './components/DashBoard';
+import LandingPage from './containers/LandingPage/LandingPage';
+//import HeadLines from './API/News/headlines';
+//import MostActive from './API/mostActive';
+//import DashBoard from './components/DashBoard';
 
 function App() {
   return (
     <div>
-      <DashBoard />
+      <LandingPage />
     </div>
   );
 }
