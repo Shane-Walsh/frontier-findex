@@ -30,10 +30,10 @@ class MostActive extends Component {
             </div>
           )
       })
-this.setState({profile: profile});
-console.log("This is Items State: ", this.state.items);
-})
-}
+      this.setState({profile: profile});
+          console.log("This is Items State: ", this.state.items);
+        })
+    }
     render() {
 
         return (
