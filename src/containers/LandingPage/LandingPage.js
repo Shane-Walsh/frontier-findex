@@ -1,11 +1,10 @@
 import React from 'react';
-//import Dashboard from '../DashboardPage/DashBoard';
-//import AppBar from '../../components/AppBar/AppBar';
+import Dashboard from '../DashboardPage/DashBoard';
 
 function App() {
   return (
     <div>
-      
+      <Dashboard />
     </div>
   );
 }
